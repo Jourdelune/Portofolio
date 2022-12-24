@@ -12,50 +12,51 @@ const router = createRouter({
     {
       path: "/github",
       name: "github",
-      redirect: to => {
+      redirect: (to) => {
         if (router.options.history.state.current == to.path) {
-          window.location.href = 'https://www.github.com/jourdelune'
+          window.location.href = "https://www.github.com/jourdelune";
         } else {
-          window.open('https://www.github.com/jourdelune', 
-          '_blank');
+          window.open("https://www.github.com/jourdelune", "_blank");
         }
-        return router.options.history.state.current
+        return router.options.history.state.current;
       },
       component: HomeView,
     },
     {
       path: "/youtube",
       name: "youtube",
-      redirect: to => {
+      redirect: (to) => {
         if (router.options.history.state.current == to.path) {
-          window.location.href = 'https://www.youtube.com/channel/UCGlPpIieapHtOr8bc2aSQPA'
+          window.location.href =
+            "https://www.youtube.com/channel/UCGlPpIieapHtOr8bc2aSQPA";
         } else {
-          window.open('https://www.youtube.com/channel/UCGlPpIieapHtOr8bc2aSQPA', 
-          '_blank');
+          window.open(
+            "https://www.youtube.com/channel/UCGlPpIieapHtOr8bc2aSQPA",
+            "_blank"
+          );
         }
-        return router.options.history.state.current
+        return router.options.history.state.current;
       },
       component: HomeView,
     },
     {
       path: "/twitter",
       name: "twitter",
-      redirect: to => {
+      redirect: (to) => {
         if (router.options.history.state.current == to.path) {
-          window.location.href = 'https://twitter.com/Jourdelune2'
+          window.location.href = "https://twitter.com/Jourdelune2";
         } else {
-          window.open('https://twitter.com/Jourdelune2', 
-          '_blank');
+          window.open("https://twitter.com/Jourdelune2", "_blank");
         }
-        return router.options.history.state.current
+        return router.options.history.state.current;
       },
       component: HomeView,
     },
-    { 
-      path: '/:pathMatch(.*)*', 
-      name: 'NotFound', 
-      component: HomeView },
-
+    {
+      path: "/:pathMatch(.*)*",
+      name: "NotFound",
+      component: HomeView,
+    },
   ],
 });
 
