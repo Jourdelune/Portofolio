@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.bg-img {
+  background-image: url('../assets/bg.png');
+}
+
+.linear-gradient {
+  background: rgb(2,0,12);
+  background: linear-gradient(0deg, rgba(2,0,12,1) 0%, rgba(0,212,255,0) 100%);
+}
+
+.linear-gradient-reverse {
+  background: rgb(2,0,12);
+  background: linear-gradient(180deg, rgba(2,0,12,1) 0%, rgba(0,212,255,0) 100%);
+}
+
+body {
+  background-color: #02000C;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
