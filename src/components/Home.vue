@@ -97,7 +97,7 @@ function mouseOver(number) {
         <img src="../assets/arrow.svg" draggable="false" class="hover:animate-pulse object-contain h-8 w-auto border border-white rounded-full mx-auto"/>
       </a>
 
-      <div class="absolute bottom-0 h-16 text-white bg-white w-full linear-gradient">
+      <div class="absolute bottom-0 h-16 text-white w-full linear-gradient-home">
       </div>
     </div>
   </div>

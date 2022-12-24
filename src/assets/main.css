@@ -4,7 +4,7 @@
   background-image: url('../assets/bg.png');
 }
 
-.linear-gradient {
+.linear-gradient-home {
   background: rgb(2,0,12);
   background: linear-gradient(0deg, rgba(2,0,12,1) 0%, rgba(0,212,255,0) 100%);
 }
@@ -27,4 +27,3 @@ body {
 .v-leave-to {
   opacity: 0;
 }
-
