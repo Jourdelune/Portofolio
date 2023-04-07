@@ -13,7 +13,7 @@ let project = {
   0: {
     title: "Interaction Bot",
     description: `
-    Mon bot de traduction Discord, Interaction Bot, utilise FastText pour détecter la langue et un modèle de traduction pour fournir une offre de traduction gratuite. Je le fournis sans limite de caractères ce qui en fait un des seuls bot gratuits sur discord. Interaction bot est utilisé par 16 000 serveurs avec plus de 1000 commandes effectuées chaque jour.
+    Mon bot de traduction Discord, Interaction Bot, utilise FastText pour détecter la langue et un modèle de traduction pour fournir une offre de traduction gratuite. Je le fournis sans limite de caractères ce qui en fait un des seuls bot gratuits sur discord. Interaction bot est utilisé par 20 000 serveurs avec plus de 1000 commandes effectuées chaque jour.
     <br /><br />Présentation du bot par un utilisateur :
     <iframe class="w-full" height="500" src="https://www.youtube.com/embed/lqXAISyny_s" title="Comment configurer Interaction bot Discord | Traduire | #roduz #discord #translate # translation" frameborder="0" allow="accéléromètre ; lecture automatique ; écriture dans le presse-papiers ; média chiffré ; gyroscope ; image dans l'image" allowfullscreen></iframe>
     Vous pouvez également consulter le site Web du bot ici : <span class="text-sky-400">https://interaction-bot.com/</span>.
@@ -130,7 +130,7 @@ function mouseOver(number) {
       <img src="../assets/interaction.png" class="h-12 my-auto" />
       <div>
         <p class="text-white">Interaction Bot</p>
-        <p class="text-[#D9D9D9] text-sm">15k serveurs</p>
+        <p class="text-[#D9D9D9] text-sm">20k serveurs</p>
       </div>
     </div>
 
